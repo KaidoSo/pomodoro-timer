@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,29 +10,31 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Pomodoro Timer</title>
 </head>
-<div class="container-fluid">
-
-    <div class="row text-center">
-        <div class="col-md-6">
-            <div class="text">Pomodoro Timer</div>
-            <p id="display">25:00</p>
-            <button id="more" class="bt1 ">+</button>
-            <button id="less" class="bt1">-</button>
-
-
-
-            <div id="timer" class="pieChart slice"></div>
-
-            <button id="go" class="bt2">Start/Resume</button>
-            <button id="pause" class="bt2">Pause</button>
-            <button id="reset" class="bt2">Stop/Reset</button>
-        </div>
-        <div class="col-md-6">Progress Tracking</div>
-    </div>
-
-</div>
 
 <body>
+    <div class="container-fluid">
+
+        <div class="row text-center">
+            <div class=" timer col-md-6">
+                <div class="title-text">Pomodoro Timer</div>
+                <div class="display">
+                    <p class="display__time-left">25:00</p>
+                </div>
+                <form name="customForm" id="custom">
+                    <input type="text" class="text-center" name="minutes" placeholder="Enter Minutes">
+                    <button class="bt1">Enter</button>
+                </form>
+                <div id="pie" class="pieChart slice"></div>
+                <button data-time="1500" class="bt2">25 min</button>
+                <button data-time="300" class="bt2">5 min</button>
+                <button data-time="900" class="bt2">15 min</button>
+            </div>
+            <div class="col-md-6">Progress Tracking</div>
+        </div>
+
+    </div>
+
+
     <script src="scripts/main.js"></script>
 </body>
 
