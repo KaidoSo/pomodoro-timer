@@ -15,18 +15,18 @@
     <div class="container-fluid">
         <div class="row text-center">
             <div class=" timer col-md-6">
-                <div class="title-text">Pomodoro Timer</div>
+                <h1 class="title-text">Pomodoro Timer</h1>
                 <div class="display">
                     <p class="display__time-left">25:00</p>
                 </div>
                 <form name="customForm" id="custom">
                     <input type="text" class="text-center" name="minutes" placeholder="Enter Minutes">
-                    <button class="bt1">Enter</button>
+                    <button class="button">Enter</button>
                 </form>
                 <div id="pie" class="pieChart slice"></div>
-                <button data-time="1500" class="bt2">25 min</button>
-                <button data-time="300" class="bt2">5 min</button>
-                <button data-time="900" class="bt2">15 min</button>
+                <button data-time="1500" class="button">25 min</button>
+                <button data-time="300" class="button">5 min</button>
+                <button data-time="900" class="button">15 min</button>
             </div>
             <div class="row col-md-6">
                 <h3>Pomodoro Timer</h3>
@@ -47,9 +47,11 @@
                     date and with each completed 25 minutes, click on the tomato to turn it red.</p>
             </div>
         </div>
-        <div class="title-text">Progress Tracking</div>
-        <div class="row">
+        <h1 class="title-text">Progress Tracking</h1>
+        <div class="row grid">
             <ul class="btn-toolbar">
+                <input type="submit" id="tomato" class="tomato iconize" value="click me">
+                <input type="submit" id="tomato" class="tomato iconize" value="click me">
                 <input type="submit" id="tomato" class="tomato iconize" value="click me">
                 <input type="submit" id="tomato" class="tomato iconize" value="click me">
                 <input type="submit" id="tomato" class="tomato iconize" value="click me">

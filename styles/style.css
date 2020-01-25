@@ -1,19 +1,42 @@
+/* variables */
+:root{
+    --primary: #F53229;
+    --secondary: #b9cf81;
+}
+
+/* reset */
+body,p,a,ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* base styles */
 body {
     background-color: #150e0ee0;
     text-align: center;
+    font-family: 'Rubik Regular';
+}
+
+h1,h3{
+    color: var(--primary);
+}
+
+h1{
+    font-size: 3em;
 }
 
 h3 {
-    color:#F53229;
-    text-align: center;
+    font-size: 2em;
 }
 
 .about-p {
-    color: #b9cf81;
+    color: var(--secondary);
+    font-size: 1.1em;
 }
 
 .pieChart {
-    background-color: #b9cf81;
+    background-color: var(--secondary);
     width: 250px;
     height: 250px;
     display: block;
@@ -23,39 +46,36 @@ h3 {
     margin-bottom: 10px;
     }
 
-.bt1 {
-    height: 30px;
-    width: 80px;
-    font-size: 10px;
-    text-align: center;
-    align-content: center;
-    background-color: transparent;
-    border-radius: 30px;
+.button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+    display: inline-block;
+}
+.button:hover{
+    color: #222;
+    background: var(--primary); 
 }
 
-.bt2 {
-    height: 40px;
-    width: 80px;
-    font-size: 10px;
-    text-align: center;
-    align-content: center;
-    background-color: transparent;
-    border-radius: 30px;
+input{
+    background: rgba(255,255,255,0.05);
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
 }
 
 .display__time-left {
-    color:#F53229;
+    color: var(--primary);
     font-size: 50px;
     text-align: center;
     align-content: center;
     background-color: transparent;
 }
-
-.title-text {
-    color: #F53229;
-    font-size: 60px;
-}
-
 
 /* tomato icons */
 
@@ -70,4 +90,34 @@ h3 {
     background: url("../img/tomato-red.png") no-repeat center;
     background-size: 110%;
     border-radius: 50px;
+}
+
+
+
+/* fonts */
+
+@font-face{
+    font-family: 'Rubik Regular';
+    src: url('../fonts/Rubik-Regular.ttf')
+}
+
+/* mobile styles */
+
+/* small tablet styles */
+@media screen and (min-width: 620px){
+    
+}
+
+/* large tablets and laptop styles */
+@media screen and (min-width: 960px){
+    body{
+        font-size: 18px;
+    }
+}
+
+/* desktop styles */
+@media screen and (min-width: 1200px){
+    body{
+        font-size: 20px;
+    }
 }
