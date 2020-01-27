@@ -79,12 +79,17 @@ input{
     background-color: transparent;
 }
 
+.progress-date {
+    font-size: 1em;
+}
+
 /* tomato icons */
 
 /* container to size the tomato */
 #tomato {
     width: 100px;
     cursor: pointer;
+    padding: 5px;
 }
 
   /* stalk is green and doesn't change color */
@@ -124,11 +129,17 @@ input{
     body{
         font-size: 18px;
     }
+    .progress-date {
+        font-size: 1.2em;
+    }
 }
 
 /* desktop styles */
 @media screen and (min-width: 1200px){
     body{
         font-size: 20px;
+    }
+    .progress-date {
+        font-size: 1.5em;
     }
 }
