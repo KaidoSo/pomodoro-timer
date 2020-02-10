@@ -1,6 +1,8 @@
 let countdown;
 const timerDisplay = document.querySelector('.display__time-left');
 const buttons = document.querySelectorAll('[data-time]');
+const alarm = document.createElement('audio'); // A bell sound will play when the timer reaches 0
+alarm.setAttribute("src", "https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3");
 
 function timer(seconds) {
     // clear any existing timers
@@ -15,6 +17,8 @@ function timer(seconds) {
         // check if we should stop it!
         if (secondsLeft < 0) {
             clearInterval(countdown);
+            alarm.currentTime = 0;
+            alarm.play();
             return;
         }
         // display it
