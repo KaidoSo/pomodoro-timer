@@ -44,13 +44,12 @@ Each page was tested locally and on GITHUB pages using Chrome developer tools, t
 <h3>Bugs and Fixes</h3>
 Making the countdown timer fill up with different color as the timer ticks away was in my initial scope, but I could not make it work the way I wanted it to, so I had to leave it out to be able to meet the time constraints I am currently facing with this course.
 <br>
-I acknowledge the fact that size of fonts and icons are not optimized for every screensize, but the scope of this project is to prove my knowledge in JS and due to time constraints I opted for not consentrating on that aspect fully.
+I acknowledge the fact that size of fonts and icons are not optimized for every screensize, but the scope of this project is to prove the knowledge obtained so far in JS and due to time constraints I opted for not consentrating on that aspect fully.
 
 <h3>Work based on other code</h3>
 I used this instructional video of <a href="https://www.youtube.com/watch?v=LAaf7-WuJJQ" target="_blank">Vanilla JS Countdown Timer</a> as the backbone of my timer JS code. I also used some guidance from <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> website.
 
 <h3>What changed after user design experience (UDX) phase</h3>
-The initial idea of having a countdown visuals inside the pieChart was scrapped. But I am definitely revisiting this project at a later date, when I have more time on my hands, to make it fully responsive and adding the visuals I had in mind.
- 
+The initial idea of having a countdown visuals inside the pieChart was scrapped. But I am definitely revisiting this project at a later date, when I have more time on my hands, to make it visually more pleasing and adding the visuals I had in mind.
 
 
