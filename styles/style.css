@@ -24,17 +24,19 @@ h1,h3{
 
 h1{
     font-size: 3em;
+    margin: 20px 0px;
 }
 
 h3 {
     font-size: 2em;
+    padding: 10px 10px;
 }
 
 .about-p {
     color: var(--secondary);
     font-size: 1.1em;
     text-align: left;
-    padding: 5px;
+    padding: 0px 10px;
 }
 
 .pieChart {
@@ -58,6 +60,7 @@ h3 {
     box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
     display: inline-block;
 }
+
 .button:hover{
     color: #222;
     background: var(--primary); 
@@ -73,7 +76,9 @@ input{
 
 .display__time-left {
     color: var(--primary);
-    font-size: 50px;
+    padding-top: 70px;
+    padding-right: 1px;
+    font-size: 70px;
     text-align: center;
     align-content: center;
     background-color: transparent;
@@ -87,9 +92,9 @@ input{
 
 /* container to size the tomato */
 #tomato {
-    width: 100px;
+    width: 50px;
     cursor: pointer;
-    padding: 5px;
+    padding: 2px;
 }
 
   /* stalk is green and doesn't change color */
@@ -121,9 +126,11 @@ input{
 
 /* small tablet styles */
 @media screen and (min-width: 620px){
-    
+    #tomato {
+        width: 50px;
+        padding: 2px;
 }
-
+}
 /* large tablets and laptop styles */
 @media screen and (min-width: 960px){
     body{
@@ -132,8 +139,11 @@ input{
     .progress-date {
         font-size: 1.2em;
     }
+    #tomato {
+        width: 80px;
+        padding: 3px;
 }
-
+}
 /* desktop styles */
 @media screen and (min-width: 1200px){
     body{
@@ -141,5 +151,12 @@ input{
     }
     .progress-date {
         font-size: 1.5em;
+    }
+    .timer {
+        margin: 50px 0px;
+    }
+    #tomato {
+        width: 100px;
+        padding: 5px;
     }
 }
