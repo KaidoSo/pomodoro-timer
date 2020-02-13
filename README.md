@@ -42,14 +42,14 @@ Website was coded in Visual Studio Code,a local GIT directory was used for versi
 and then uploaded to GITHUB using commands:
 <ul>
 <li>git commit -m</li>
-<li>git remote add origin https://github.com/KaidoSo/pomodoro-timer.git</li>
+<li>git remote add origin <a href="https://github.com/KaidoSo/pomodoro-timer.git" target="_blank">https://github.com/KaidoSo/pomodoro-timer.git</a></li>
 <li>git push -u origin master</li></ul>
 Following uploads were performed by commands:
 <ul>
 <li>git add .</li>
 <li>git commit -m</li>
 <li>git push</li>
-Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at: <a href="https://kaidoso.github.io/pomodoro-timer/" target="_blank">https://kaidoso.github.io/pomodoro-timer/</a>, 
+Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at: <a href="https://kaidoso.github.io/pomodoro-timer/" target="_blank">https://kaidoso.github.io/pomodoro-timer/</a>
 
 <h3>Testing</h3>
 Each page was tested locally and on GITHUB pages using Chrome developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop. All buttons were tested for functionality and producing a sound upon completion of timer. The website was successfully tested in google chrome, internet explorer (does not support all the colors, but functionality is there) and my own phone Sony Xperia XZ1 Compact.
