@@ -1,4 +1,5 @@
 <h1>Interactive Frontend Development Milestone Project - POMODORO TIMER</h1>
+<a href="https://kaidoso.github.io/pomodoro-timer/" target="_blank">https://kaidoso.github.io/pomodoro-timer/</a>
 
 <h3>What does it do and what need does it fulfil?</h3>
 The project is created by using skills I have acquired during the several months of studying coding after work, to create a Pomodoro timer website while utilizing HTML, CSS and JS. The purpose of the website is to allow user to use a timer and keep track of their productivity.
